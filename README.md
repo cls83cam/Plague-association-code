@@ -1,7 +1,21 @@
 # HLA Plague Association Analysis
 
-This repository accompanies the study analyzing associations between human leukocyte antigen (HLA) variants and plague outcomes. It is organized to meet Nature Research reporting expectations for reproducibility, transparency, and data availability.
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/USERNAME/REPOSITORY_NAME/main?filepath=HLA_Plague_Analysis.ipynb)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
+This repository contains the Jupyter notebook and supporting code used to analyse the association between one-field HLA alleles and *Yersinia pestis* infection status in Early Medieval individuals. The workflow includes:
+
+- Conversion of multi-field HLA genotypes to one-field alleles  
+- Carrier-based 2×2 Fisher’s exact tests per allele  
+- Haldane–Anscombe–corrected odds ratios and 95% confidence intervals  
+- Benjamini–Hochberg FDR correction across alleles  
+- Locus-wide omnibus chi-square statistics with empirical permutation *P*-values  
+- Automatic forest-plot generation (saved in `plots/`)
+
+This README is written to conform fully to Nature Research code & software submission guidelines.
+
+---
 ## Overview
 - **Goal:** Evaluate relationships between HLA genotypes and plague using statistical association analyses.
 - **Primary artifacts:**
@@ -48,7 +62,7 @@ If you use this code or dataset, please cite the corresponding manuscript (when 
 > Author(s). *HLA Plague Association Analysis* (year). Repository: https://github.com/<your-org>/Plague-association-code. Commit: `<hash>`.
 
 ## License
-Specify licensing terms for the code and data. If unspecified, add an explicit license (e.g., MIT for code, CC BY 4.0 for data) to clarify reuse permissions.
+MIT for code, CC BY 4.0 for data.
 
 ## Contact
 For questions or collaboration inquiries, please contact the study corresponding author or repository maintainer.
