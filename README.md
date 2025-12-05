@@ -6,7 +6,7 @@ https://doi.org/10.5281/zenodo.XXXXXXX
 
 This repository contains the Jupyter notebooks, input data and supporting Python code used to analyse the association between HLA, HFE and Blood group alleles and *Yersinia pestis* (plague) status in Early Medieval individuals.
 
-Please click the BINDER link to run the notebook in your browser
+Please click the BINDER link to run the notebook in your browser. NOTE: To view files created by the scripts, click the 'JupyterLab' button on the toolbar. This will take you to a new page that will have a file browser on the lefthand side. From here you will also be able to launch and run the other notebooks within the subfolders. 
 
 **HLA**
 [![Binder](https://mybinder.org/badge_logo.svg)](
