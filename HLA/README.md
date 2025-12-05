@@ -30,7 +30,6 @@ The workflow performs:
 ├── plots/
 ├── environment.yml
 ├── requirements.txt
-├── LICENSE
 └── README.md
 ```
 
