@@ -1,7 +1,7 @@
 # HLA Plague Association Analysis
 
 [![Binder](https://mybinder.org/badge_logo.svg)](
-https://mybinder.org/v2/gh/cls83cam/Plague-association-code/HLA/main?filepath=HLA_Plague_Analysis.ipynb
+https://mybinder.org/v2/gh/cls83cam/Plague-association-code/main?filepath=HLA/HLA_Plague_Analysis.ipynb
 )
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](
 https://doi.org/10.5281/zenodo.XXXXXXX
