@@ -78,14 +78,9 @@ A CSV file containing:
 - `Sample_ID` – unique identifier per individual  
 - A case–control indicator (e.g. `Plague_status` with values `"case"` / `"control"` or equivalent)  
 - Blood-group variant columns, for example:  
-  - `ABO_rs8176719`  
-  - `ABO_rs8176746`
-  - `ABO_rs8176750`
-  - `RhD_variant or equivalent`
-
-Any other blood-group SNPs analysed in the study  
-
-Genotypes may be coded as 0/1/2 (dosage of the effect allele) or as alleles (e.g. `GG`, `GA`, `AA`), as described in the Methods section of the manuscript.
+  - `O`  
+  - `A`
+  - `AB`
 
 The default path to the input file is set in a configuration cell (e.g. `INPUT_CSV = "BloodGroup_input.csv"`); this can be modified by the user as needed.
 
@@ -95,14 +90,7 @@ The default path to the input file is set in a configuration cell (e.g. `INPUT_C
 
 The notebook produces:
 
-- `BloodGroup_case_control_summary.csv` – allele/genotype counts and frequencies in cases vs. controls  
-- `BloodGroup_association_results.csv` – effect sizes, odds ratios, confidence intervals, raw and adjusted *P*-values  
-
-These files include:
-- allele/genotype frequencies
-- case/control counts
-- odds ratios and 95% CI
-- P-values and FDR-adjusted Q-values
+- `BloodGroup_O_stats_summary.csv` – effect sizes, odds ratios, confidence intervals, raw and adjusted *P*-values  
    
 ---
 
