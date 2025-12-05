@@ -32,7 +32,6 @@ Full details are given in the manuscript and Supplementary Methods.
 ├── plots/
 ├── environment.yml
 ├── requirements.txt
-├── LICENSE
 └── README.md
 ```
 
