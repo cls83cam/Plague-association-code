@@ -122,8 +122,7 @@ HLA_Plague_Analysis.ipynb
 3. Adjust `INPUT_CSV` if needed.  
 4. Run all notebook cells in order.
 
-### Runtime:
-- Demo dataset: <1 minute  
+### Runtime: 
 - Full dataset: 3–5 minutes  
 
 ---
@@ -145,7 +144,7 @@ Permutation results are reproducible due to fixed seeds.
 ## 8. Code Availability
 
 GitHub:
-https://github.com/USERNAME/REPOSITORY_NAME
+https://github.com/cls83cam/Plague-association-code
 
 Zenodo archive:
 https://doi.org/10.5281/zenodo.XXXXXXX
@@ -155,7 +154,6 @@ https://doi.org/10.5281/zenodo.XXXXXXX
 ## 9. Data Availability
 
 `HLA_Plague_input.csv` is included for analysis.  
-For publication with restricted data requirements, substitute an anonymised dataset.
 
 ---
 
@@ -169,10 +167,10 @@ For publication with restricted data requirements, substitute an anonymised data
 ## 11. Citation
 
 ```
-AUTHOR et al. (YEAR)
-HLA Plague Association Analysis
-GitHub: https://github.com/USERNAME/REPOSITORY_NAME
-DOI: https://doi.org/10.5281/zenodo.XXXXXXX
+Scheib et al. (YEAR)
+TO BE PUBLISHED
+GitHub: https://github.com/cls83cam/Plague-association-code
+DOI:
 ```
 
 ---
