@@ -2,7 +2,7 @@
 # ABO Plague Association Analysis
 
 [![Binder](https://mybinder.org/badge_logo.svg)](
-https://mybinder.org/v2/gh/USERNAME/REPOSITORY_NAME/main?filepath=HFE%20Analysis.ipynb
+https://mybinder.org/v2/gh/USERNAME/REPOSITORY_NAME/main?filepath=BloodGroup_Analysis.ipynb
 )
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](
 https://doi.org/10.5281/zenodo.XXXXXXX
