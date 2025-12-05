@@ -84,10 +84,10 @@ HFE fields contain comma‑separated alleles, e.g.:
 C282Y, H63D
 ```
 
-Demo dataset included:
+Dataset included:
 
 ```
-demo_data/HFE_input_demo.csv
+HFE_input.csv
 ```
 
 ---
@@ -123,7 +123,7 @@ HFE Analysis.ipynb
 4. Run all notebook cells in order.
 
 ### Runtime:
-- Full dataset: 3–5 minutes
+- Full dataset: <1 minutes
 
 ---
 
