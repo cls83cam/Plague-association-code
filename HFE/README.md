@@ -13,11 +13,13 @@ This repository contains the Jupyter notebook and supporting Python code used to
 The workflow performs:
 - parsing and standardisation of HFE genotype fields
 - quality-control checks for genotypes and samples
-- carrier-based Fisher’s exact tests and/or logistic regression per variant
-- Haldane–Anscombe–corrected odds ratios with 95% confidence intervals
-- Benjamini–Hochberg FDR correction where relevant
-- locus-wide omnibus chi-square statistics with empirical permutation *P*-values
-- automated forest-plot generation (saved in the `plots/` folder, if produced)
+- Association between HFE variants and plague status is evaluated using:
+  - 2×2 (or 2×3) contingency tables with Fisher’s exact test and/or chi-square tests, and/or  
+  - Logistic regression models with plague status as the outcome and HFE genotype as the predictor, optionally adjusted for covariates (e.g. age, sex, ancestry PCs) if present.
+- Effect sizes are reported as odds ratios (OR) with 95% confidence intervals.
+- Multiple-testing correction (e.g. Benjamini–Hochberg FDR) is applied if more than one variant/test is evaluated.
+
+Full details are given in the manuscript and Supplementary Methods.
 
 ---
 
@@ -94,22 +96,10 @@ HFE_input.csv
 
 ## 5. Expected Outputs
 
-### Per‑variant association tables:
-```
-HFE_<variant>_EDI_case_control.csv
-```
+The notebook writes one or more summary tables to disk, for example:
 
-### Omnibus result summary:
-```
-HFE_omnibus_summary.csv
-```
-
-### Forest plots:
-Saved to:
-```
-plots/<variant>_forest_plot.png
-```
-
+- `HFE_case_control_summary.csv` – allele/genotype counts and frequencies in cases vs. controls  
+- `HFE_association_results.csv` – effect sizes, odds ratios, confidence intervals, raw and adjusted *P*-values  
 ---
 
 ## 6. How to Run
