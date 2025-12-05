@@ -76,8 +76,7 @@ Expected columns:
 
 - Sample_ID  
 - Plague status (case/control)  
-- HLA_A, HLA_B, HLA_C  
-- HLA_DRB1, HLA_DQA1, HLA_DQB1, HLA_DPA1, HLA_DPB1  
+- HLA_A, HLA_B, HLA_C, HLA_DRB1, HLA_DQA1, HLA_DQB1, HLA_DPA1, HLA_DPB1  
 
 HLA fields contain comma‑separated alleles, e.g.:
 
