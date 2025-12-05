@@ -31,7 +31,6 @@ Full details are given in the manuscript and Supplementary Methods.
 ├── BloodGroup_input.csv
 ├── environment.yml
 ├── requirements.txt
-├── LICENSE
 └── README.md
 ```
 
